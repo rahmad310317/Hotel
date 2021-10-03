@@ -1,4 +1,8 @@
 import React from 'react';
+import { BrowserRouter as Router} from 'react-router-dom'
+
+
+
 import { render } from '@testing-library/react';
 import Button from './index';
 
@@ -21,4 +25,14 @@ test("Should render <a> tag", () => {
     expect(container.querySelector("a")).toBeInTheDocument();
 });
 
+test("Should render <Link> component", () => {
+    const { container } = render(
+      <Router>
+        <Button href="" type="link"></Button>
+      </Router>
+    );
+  
+    expect(container.querySelector("a")).toBeInTheDocument();
+  });
+  
 
