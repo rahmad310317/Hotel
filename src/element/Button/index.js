@@ -9,10 +9,10 @@ export default function Button(props) {
   if (props.isLarge) className.push("btn-lg");
   if (props.isSmall) className.push("btn-sm");
   if (props.isBlock) className.push("btn-block");
-  if (props.hasShadow) className.push("btn-shadow");
+  if (props.hasShadow) className.push("btn-shadow white rounded");
 
   const onClick = () => {
-    if (props.onClick) props.onClick();
+    if (props.onClick) props.onClick(); 
   };
 
   if (props.isDisabled || props.isLoading) {

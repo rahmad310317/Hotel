@@ -45,8 +45,6 @@
   font-size: 26px;
   font-weight: 500;
   font-family: 'poppins', sans-serif;
-  margin-left: 10px;
-  
   color: $primary;
   &:hover {
     color: $primary;
@@ -58,10 +56,10 @@ header {
   border-bottom: 1px solid $gray-200;
   width: 100%;
   position: relative;
-  margin-bottom: 50px;
+  
 
   .navbar {
-    height: 80px;
+    height: 70px;
 
     ul.navbar-nav {
       li.nav-item {
