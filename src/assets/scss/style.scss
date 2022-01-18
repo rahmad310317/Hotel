@@ -6,6 +6,7 @@
  */
 @import url("https://fonts.googleapis.com/css?family=Poppins:300,400,500,700&display=swap");
 @import "functions";
+@import "colorVariabel";
 @import "variables";
 @import "mixins";
 @import "root";
@@ -164,8 +165,8 @@ section{
      left: 0;
      right: 0; 
      bottom: 0; 
-     transform: scale(1.1); 
-     transition: 0.25s transform ease-in-out;
+     transform: scale(1); 
+     transition: 0.5s transform ease-in-out;
         
    }
 
@@ -191,8 +192,43 @@ section{
        transform: scale(1);
      }
 .img-wrapper {
-    transform: scale(1);
+    transform: scale(1.1);
 }
 
    }
+}
+
+.testimonial-hero, .testimonial-hero img {
+  width: 415px; 
+  height: 416px;
+}
+footer {
+  border-top: 1px solid $gray-200;
+  padding-top: 50px;
+
+  .brand-tagline {
+    margin-top: 8px; 
+    color :$gray-500;
+    font-weight: 300;
+
+  }
+
+  .list-group-item {
+    padding: 0.3125rem 0 ;
+    border: 0;
+    a, span {
+        color : $gray-500;
+        font-weight: 300;        
+    }
+    a {
+      @include hover-focus {
+        color: $gray-800;
+      }
+    }
+  }
+  .copyrights {
+    margin-top: 50px;
+    font-weight: 300;
+    color: $gray-500;
+  }
 }

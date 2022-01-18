@@ -121,7 +121,7 @@
           "imageUrl": "/images/image-category-7.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         },
         {
           "_id": "asd1293uasdads1",
@@ -129,7 +129,7 @@
           "imageUrl": "/images/image-category-8.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": true
+          "isPopular": false
         }
       ]
     },
@@ -159,7 +159,7 @@
           "imageUrl": "/images/image-category-11.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": true
+          "isPopular": false
         },
         {
           "_id": "asd1293uasdads1",
@@ -167,18 +167,18 @@
           "imageUrl": "/images/image-category-12.jpg",
           "country": "South Korea",
           "city": "Seoul Flore",
-          "isPopular": false
+          "isPopular": true
         }
       ]
     }
   ],
   "testimonial": {
     "_id": "asd1293uasdads1",
-    "imageUrl": "/images/testimonial-landingpages.jpg",
+    "imageUrl": "/images/Hero-Testimonial.png",
     "name": "Happy Family",
     "rate": 4.55,
     "content": "What a great trip with my family and I should try again next time soon ...",
-    "familyName": "Angga",
+    "familyName": "Rahmad Windi Simanulang",
     "familyOccupation": "Product Designer"
   }
 }

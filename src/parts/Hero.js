@@ -1,6 +1,7 @@
 /** @format */
 
 import React from "react";
+import Fade  from "react-reveal/Fade";
 import HeroImage from "assets/images/HeroImage.png";
 import HeroImageFrame from "assets/images/HeroImageFrame.png";
 import Travelers from "assets/images/icons/icon-traveler.svg";
@@ -18,8 +19,9 @@ export default function Hero(props) {
 		});
 	}
 
-	return (
+	return (		
 		<section className='container pt-4'>
+			<Fade bottom>
 			<div className='row align-items-center'>
 				<div className='col-auto pr-5' style={{ width: 530 }}>
 					<h1 className=' mt-4 font-weight-bold line-heigth-1 mb-2'>
@@ -109,6 +111,8 @@ export default function Hero(props) {
 					</div>
 				</div>
 			</div>
+			</Fade>
 		</section>
+		
 	);
 }
